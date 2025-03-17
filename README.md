@@ -1,4 +1,4 @@
-# Node.js - Express.js - JWT Refresh Token 🚀
+# Node.js - Express.js - JWT Refresh Token & WebSocket 🚀
 
 ## Features ✨
 
@@ -6,6 +6,7 @@
 - **Express.js**: Web framework for Node.js. 🌐
 - **JWT (JSON Web Tokens)**: Stateless authentication mechanism. 🛡️
 - **Refresh Tokens**: Mechanism to refresh JWT tokens without requiring the user to re-authenticate. 🔄
+- **Websocket**: Realtime note app. 🔄
 - **Cron Job**: Scheduler for periodic tasks in the application. ⏲️
 - **Request Validation**: Ensures incoming request data adheres to expected formats using Zod. ✔️
 

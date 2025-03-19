@@ -143,10 +143,8 @@ export function NotesList() {
                 }`}
                 onClick={() => selectNote(note._id)}
               >
-                <div className="truncate">
-                  <p className="font-medium truncate">
-                    {note.name || "Untitled Note"}
-                  </p>
+                <div className="line-clamp-1 overflow-hidden">
+                  <p className="font-medium">{note.name || "Untitled Note"}</p>
                   <p className="text-xs text-muted-foreground truncate">
                     {new Date(note.updatedAt).toLocaleDateString()}
                   </p>
